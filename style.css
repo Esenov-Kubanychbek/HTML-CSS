@@ -7,6 +7,9 @@ header{
     margin: 0;
     background-repeat: no-repeat;
 }
+#body{
+    max-width:1370px;
+}
 nav ul{
     display: flex;
     justify-content: space-between;
@@ -19,10 +22,24 @@ nav ul li{
     padding: 20px;
 }
 nav ul div:nth-child(1){
-    padding-left: 160px;
+    padding-left: 180px;
+}
+nav ul div:nth-child(3){
+    display: flex;
+  flex-direction: row;
+  justify-content: end;
 }
 .div3{
     padding-left: 30px;
+}
+nav ul li{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
 }
 nav ul div:nth-child(2) li{
     display: flex;
@@ -39,18 +56,143 @@ nav ul div:nth-child(2) li{
     letter-spacing: 0.2px;
     color: #FFFFFF;
 }
+.div4 li:nth-child(3){
+    padding-left: 150px;
+}
 .div1 img{
     transform: scale(0.99);
     display: flex;
     align-items: flex-end;
-    padding-top: 47px;
+    padding-top: 43px;
+}
+nav h3{
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
 }
 .div1{
     display: flex;
     justify-content: space-between;
     padding-left: 220px;
 }
-.div1 span{
-    position: absolute;
-    left: 400px;
+.div2 p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    max-width: 340px;
+}
+.div2 button{
+    padding: 10px 35px;
+    border-radius: 45px;
+}
+#btn1{
+    background-color: #FFA62B;
+    color: #FFFFFF;
+    border: 1px solid #FFA62B;
+    margin-top: 20px;
+    
+}
+#btn2{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    margin-left: 10px;
+}
+@media(max-width:1300px){
+    .div1 img{
+        display: none;
+    }
+    .div4 li:nth-child(3) img{
+        padding-left: 10px;
+        align-items: center;
+    }
+    .div3 div:nth-child(1){
+        padding-left: 100px;
+    }
+    .div2 h1{
+        text-align: center;
+        max-width: 5000px;  
+    }
+    .div2 p{
+        text-align: center;
+        max-width: none;
+    }
+    .div1{
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .btn0{
+        display: flex;
+        justify-content: center;
+    }
+    .btn1{
+        padding: 0 35px;
+    }
+}
+@media(max-width:1150px){
+    .div4 li:nth-child(3){
+        padding: 0;
+        align-items: center;
+         padding-left: 65px;
+         padding-right: 30px;
+    }
+}
+@media(max-width:1050px){
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul div{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul div:nth-child(1){
+        padding-left: 0;
+    }
+    .div1{
+        margin-top: -50px;
+    }
+    .div2{
+        margin-top: -100px;
+    }
+    .div3{
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .div3 div:nth-child(1){
+        padding-left: 0;
+    }
+    .div4{
+        margin-top: -10px;
+    }
+    .div4 li:nth-child(3){
+        padding-left: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:710px){
+    .div2 h1{
+        padding: 0 10px;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 55px;
+        letter-spacing: 0.1;
+    }
+    .div2 p{
+        padding: 0 20px;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 25px;
+        letter-spacing: 0.1px;
+    }
 }
