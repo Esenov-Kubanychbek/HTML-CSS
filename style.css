@@ -1,4 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 header{
     background-image: url(./img/background.png);
     margin: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul div{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+nav ul div:nth-child(1) li{
+    padding-left: 200px;
+}
+nav ul div:nth-child(2) li{
+    display: flex;
+    padding: 20px;
+}
+nav ul div:nth-child(3) li{
+    padding-left: 100px;
 }
