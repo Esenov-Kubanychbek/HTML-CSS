@@ -5,6 +5,7 @@
 header{
     background-image: url(./img/background.png);
     margin: 0;
+    background-repeat: no-repeat;
 }
 nav ul{
     display: flex;
@@ -17,21 +18,39 @@ nav ul li{
     list-style-type: none;
     padding: 20px;
 }
-nav ul div:nth-child(1) li{
-    padding-left: 200px;
+nav ul div:nth-child(1){
+    padding-left: 160px;
+}
+.div3{
+    padding-left: 30px;
 }
 nav ul div:nth-child(2) li{
     display: flex;
-    padding: 20px;
 }
-nav ul div:nth-child(3) li{
-    padding-left: 100px;
+.div2{
+    padding-top: 200px;
 }
+
 .div2 h1{
-    max-width: 509px;
+    max-width: 609px;
     font-weight: 800;
-    font-size: 58px;
+    font-size: 57px;
     line-height: 80px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+}
+.div1 img{
+    transform: scale(0.99);
+    display: flex;
+    align-items: flex-end;
+    padding-top: 47px;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 220px;
+}
+.div1 span{
+    position: absolute;
+    left: 400px;
 }
