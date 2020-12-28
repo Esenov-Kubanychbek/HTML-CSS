@@ -134,6 +134,26 @@ main section:nth-child(1) p{
     margin: 0 auto;
 
 }
+#cart1{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#cart1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: calc(100% / 3 - 10px);
+    margin:  0 5px 10px 5px;
+    
+}
+#cart1 div img{
+    max-width: 45px;
+    margin: 0 auto;
+}
+#cart1 div h5{
+    text-align: center;
+}
 @media(max-width:1300px){
     .div1 img{
         display: none;
