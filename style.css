@@ -121,6 +121,19 @@ main section:nth-child(1) h2{
     padding-top: 100px;
 
 }
+main section:nth-child(1) p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    max-width: 470px;
+    text-align: center;
+    margin: 0 auto;
+
+}
 @media(max-width:1300px){
     .div1 img{
         display: none;
