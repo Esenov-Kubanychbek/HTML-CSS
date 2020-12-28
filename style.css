@@ -133,8 +133,9 @@ nav h3{
         display: flex;
         justify-content: center;
     }
-    .btn1{
-        padding: 0 35px;
+    #btn2{
+        height: 37px;
+        margin-top: 20px;    
     }
 }
 @media(max-width:1150px){
