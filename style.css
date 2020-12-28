@@ -175,6 +175,9 @@ main section:nth-child(1) p{
 #cart1 div:nth-child(2) h5{
     color: #ffffff;
 }
+main section:nth-child(2){
+    background-color: #636A83;
+}
 @media(max-width:1300px){
     .div1 img{
         display: none;
