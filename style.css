@@ -325,6 +325,9 @@ main section:nth-child(3){
     letter-spacing: 0.2px;
     color: #FFFFFF;
 }
+main section:nth-child(4){
+    background-color: #392C86;
+}
 @media(max-width:1300px){
     .div1 img{
         display: none;
