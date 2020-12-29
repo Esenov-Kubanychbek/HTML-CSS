@@ -290,6 +290,13 @@ main section:nth-child(3){
     color: #FFFFFF;
     max-width: 330px;
 }
+.cont{
+    display: flex;
+}
+.cont div{
+    display: flex;
+    flex-direction: column;
+}
 @media(max-width:1300px){
     .div1 img{
         display: none;
