@@ -215,7 +215,15 @@ main section:nth-child(2) h2{
     background-color: #ffffff;
 }
 .cart2 h5{
-    width: 135px;
+    width: 145px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
 }
 .cart2 p{
     max-width: 160px;
