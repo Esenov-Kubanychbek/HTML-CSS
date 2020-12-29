@@ -188,7 +188,7 @@ main section:nth-child(2) h2{
     text-align: center;
     padding-top: 125px;
 }
-main section:nth-child(2) p{
+.p1{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -199,6 +199,9 @@ main section:nth-child(2) p{
     max-width: 470px;
     margin:  0 auto;
     padding-top: 15px;
+}
+.cart2{
+    display: flex;
 }
 @media(max-width:1300px){
     .div1 img{
