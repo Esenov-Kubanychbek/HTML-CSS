@@ -203,6 +203,11 @@ main section:nth-child(2) h2{
 .cart2{
     display: flex;
 }
+.cart2 div{
+    display: flex;
+    flex-direction: column;
+    
+}
 .cart2 h5{
     width: 135px;
 }
