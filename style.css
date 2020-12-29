@@ -254,9 +254,7 @@ main section:nth-child(3) h2{
     padding-top: 100px;
 }
 main section:nth-child(3) p{
-    width: 511px;
-    height: 40px;
-    top: 129px;
+    max-width: 511px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
