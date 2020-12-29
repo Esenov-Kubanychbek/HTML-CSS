@@ -202,6 +202,7 @@ main section:nth-child(2) h2{
 }
 .cart2{
     display: flex;
+    text-align: center;
 }
 @media(max-width:1300px){
     .div1 img{
