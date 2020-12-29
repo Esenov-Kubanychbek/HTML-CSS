@@ -240,6 +240,17 @@ main section:nth-child(2) h2{
 main section:nth-child(4){
     background-color: #9EA5BF;
 }
+main section:nth-child(4) h2{
+    max-width: 461px;
+    padding-left: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
 @media(max-width:1300px){
     .div1 img{
         display: none;
