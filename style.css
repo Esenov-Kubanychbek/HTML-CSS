@@ -262,6 +262,7 @@ main section:nth-child(3) p{
     text-align: center;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+    margin: 0 auto;
 }
 @media(max-width:1300px){
     .div1 img{
