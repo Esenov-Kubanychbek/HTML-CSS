@@ -210,6 +210,7 @@ main section:nth-child(2) h2{
     flex-direction: column;
     flex-basis: calc(100 / 4 - 20px);
     margin: 0 10px;
+    background-color: #ffffff;
 }
 .cart2 h5{
     width: 135px;
