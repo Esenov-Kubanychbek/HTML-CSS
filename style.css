@@ -188,6 +188,15 @@ main section:nth-child(2) h2{
     text-align: center;
     padding-top: 125px;
 }
+main section:nth-child(2){
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
 @media(max-width:1300px){
     .div1 img{
         display: none;
