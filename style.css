@@ -202,7 +202,7 @@ main section:nth-child(2) h2{
 }
 .cart2{
     display: flex;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding-top: 45px;
     padding-bottom: 100px;
@@ -211,7 +211,7 @@ main section:nth-child(2) h2{
     display: flex;
     flex-direction: column;
     flex-basis: calc(100 / 4 - 20px);
-    margin: 0 10px;
+    margin: 20px 10px;
     background-color: #ffffff;
 }
 .cart2 h5{
@@ -227,6 +227,15 @@ main section:nth-child(2) h2{
 }
 .cart2 p{
     max-width: 160px;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
 }
 @media(max-width:1300px){
     .div1 img{
@@ -303,6 +312,11 @@ main section:nth-child(2) h2{
         display: flex;
         justify-content: center;
     }
+    .cart2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 @media(max-width: 780px){
     #cart1{
@@ -315,6 +329,7 @@ main section:nth-child(2) h2{
         margin: 10px 150px;
     }
 }
+
 @media(max-width:710px){
     .div2 h1{
         padding: 0 10px;
