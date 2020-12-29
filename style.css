@@ -335,6 +335,7 @@ main section:nth-child(4) h2{
     line-height: 57px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+    text-align: center;
 }
 @media(max-width:1300px){
     .div1 img{
