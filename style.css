@@ -237,6 +237,9 @@ main section:nth-child(2) h2{
     color: #737373;
 
 }
+main section:nth-child(4){
+    background-color: #9EA5BF;
+}
 @media(max-width:1300px){
     .div1 img{
         display: none;
