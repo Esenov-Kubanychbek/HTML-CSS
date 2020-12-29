@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 header{
     background-image: url(./img/background.png);
@@ -348,24 +350,29 @@ main section:nth-child(4) p{
     color: #FFFFFF;
     max-width: 470px;
     margin: 0 auto;
+    padding-top: 15px;
 }
 .contr{
     display: flex;
     justify-content: space-around;
-    max-width: 650px;
+    max-width: 700px;
     margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 200px;
 }
 .contr div{
     background-color: #ffffff;
-    flex-basis: calc(100% / 2 - 30px);
+    flex-basis: calc(100% / 2 - 50px);
     text-align: center;
-    margin: 0 15px;
+    margin: 20px 25px;
+
 }
 .contr div img{
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 .contr div h6{
-    padding-top: 8px;
+    padding-top: 6px;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -375,10 +382,23 @@ main section:nth-child(4) p{
 }
 .contr div h5{
     padding-top: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
 }
 .contr button{
     margin-top: 25px;
     margin-bottom: 60px;
+    background-color: rgba(240, 230, 140, 0);
+    border: 1px solid #FFA62B;
+    color: #FFA62B;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
 }
 @media(max-width:1300px){
     .div1 img{
@@ -501,6 +521,14 @@ main section:nth-child(4) p{
     }
     .cont h5{
         margin-top: -10px;
+    }
+    .contr{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .contr h2, p{
+        padding: 0 20px;
     }
 }
 
