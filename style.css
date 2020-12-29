@@ -240,7 +240,7 @@ main section:nth-child(2) h2{
 main section:nth-child(3){
     background-color: #9EA5BF;
 }
-main section:nth-child(3) h2{
+.cart5 h2{
     max-width: 461px;
     padding-left: 25px;
     font-style: normal;
@@ -253,7 +253,7 @@ main section:nth-child(3) h2{
     margin: 0 auto;
     padding-top: 100px;
 }
-main section:nth-child(3) p{
+.cart5 p{
     max-width: 511px;
     font-style: normal;
     font-weight: 500;
@@ -264,6 +264,20 @@ main section:nth-child(3) p{
     color: #FFFFFF;
     margin: 0 auto;
     padding-top: 10px;
+}
+.cart4{
+    display: flex;
+    justify-content: space-between;
+}
+.cart4 h2{
+    max-width: 330px;
+    top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
 }
 @media(max-width:1300px){
     .div1 img{
