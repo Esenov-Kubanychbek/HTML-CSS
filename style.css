@@ -347,6 +347,7 @@ main section:nth-child(4) p{
     letter-spacing: 0.2px;
     color: #FFFFFF;
     max-width: 470px;
+    margin: 0 auto;
 }
 @media(max-width:1300px){
     .div1 img{
