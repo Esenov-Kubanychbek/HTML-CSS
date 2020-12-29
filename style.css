@@ -202,11 +202,14 @@ main section:nth-child(2) h2{
 }
 .cart2{
     display: flex;
+    max-width: 900px;
+    margin: 0 auto;
 }
 .cart2 div{
     display: flex;
     flex-direction: column;
     flex-basis: calc(100 / 4 - 20px);
+    margin: 0 10px;
 }
 .cart2 h5{
     width: 135px;
